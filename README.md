@@ -1,6 +1,10 @@
 # Lettercamp starter
 
-A small content-only starter for a Lettercamp publication. **Fieldnotes** is the sample publication, with a homepage, three original sample posts, and original cover artwork.
+A small content-only starter styled as **Lettercamp's own blog**, with a homepage, three original sample posts, and original cover artwork.
+
+- **Introducing Lettercamp:** the idea behind the product and what we're building.
+- **What a post on Lettercamp looks like:** a formatting showcase with headings, images, emphasis, links, lists, quotes, cards, and code.
+- **Give your best ideas a home:** an editorial post about building a lasting publication.
 
 The starter is organized around readable content files and a simple editorial publication format. All sample articles and cover artwork are original.
 
@@ -23,7 +27,7 @@ This repository intentionally contains no application dependencies, renderer, or
 2. Edit the introduction and story list in `pages/index.mdx`.
 3. Replace the sample posts and images with your own content.
 
-The homepage is ordinary Markdown inside an MDX file, including image links and story summaries. For now, maintain its list manually when adding or changing posts. It does not depend on an unimplemented custom component or automatic feed.
+The homepage is ordinary Markdown inside an MDX file, including image links and story summaries. For now, maintain its list manually when adding or changing posts. It does not depend on a custom component or automatic feed.
 
 ## Content conventions
 
@@ -54,4 +58,21 @@ ogImage: "/images/your-next-story.png"
 ---
 ```
 
-All sample MDX uses plain Markdown. There are no JavaScript imports, executable expressions, custom components, or external image dependencies. Search, subscriptions, comments, and chat are not wired up.
+## Cards
+
+The showcase uses standard MDX JSX elements for linked cards, with no imports or custom component dependencies:
+
+```mdx
+<div className="cards">
+  <a className="card" href="/posts/introducing-lettercamp/">
+    <span className="card-eyebrow">Meet Lettercamp</span>
+    <h3>Introducing Lettercamp</h3>
+    <p>A home for your writing and your readers.</p>
+    <span className="card-link">Read the introduction →</span>
+  </a>
+</div>
+```
+
+The shared renderer should style `.cards` as a responsive grid (two columns on larger screens, one on smaller screens) and `.card` as a padded, faint-gray linked surface with no border. Keep the whole card clickable, provide a visible keyboard focus indicator, and use `.card-eyebrow` and `.card-link` for the secondary labels. These are content hooks; their styling will arrive with the renderer. They remain ordinary navigable links without styling.
+
+Aside from this semantic card markup, the posts use plain Markdown. There are no JavaScript imports, executable expressions, custom components, or external image dependencies. Search, subscriptions, comments, and chat are not wired up.

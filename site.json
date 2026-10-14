@@ -1,11 +1,18 @@
 {
-  "name": "Fieldnotes",
-  "description": "A publication about everyday culture, creative work, and the things worth noticing.",
+  "name": "Lettercamp",
+  "description": "News, ideas, and notes on building a home for your writing.",
   "language": "en",
-  "author": "The Fieldnotes editors",
+  "author": "The Lettercamp team",
   "favicon": "/favicon.svg",
-  "ogImage": "/images/a-little-more-room-to-notice.png",
+  "ogImage": "/images/introducing-lettercamp.png",
   "navigation": [
-    { "label": "Home", "href": "/" }
+    {
+      "label": "Blog",
+      "href": "/"
+    },
+    {
+      "label": "Lettercamp",
+      "href": "https://lettercamp.com"
+    }
   ]
 }

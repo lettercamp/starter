@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f5f2ea"/>
+<g transform="translate(50 40) scale(.6)" fill="#171717"><path d="M18 10h25v4H18zm-4 4h4v42h-4zm29 0h4v33h-4zM26 18h9v4h-9zm-4 4h4v21h-4zm13 0h4v34h-4zM18 56h17v4H18z"/></g>
+<text x="90" y="66" font-family="Arial,sans-serif" font-weight="600" font-size="24" letter-spacing="-.5" fill="#171717">Lettercamp</text>
+
+<text x="56" y="248" font-family="Georgia,serif" font-size="80" letter-spacing="-3" fill="#171717">Words, with</text>
+<text x="56" y="339" font-family="Georgia,serif" font-size="80" letter-spacing="-3" fill="#171717">room to play.</text>
+<text x="60" y="397" font-family="Arial,sans-serif" font-size="22" fill="#706d65">A post can take many shapes.</text>
+<g transform="translate(687 129)">
+<rect width="444" height="365" rx="8" fill="#e8e3d7"/>
+<rect x="20" y="20" width="242" height="140" rx="4" fill="#fffefa"/>
+<text x="39" y="71" font-family="Georgia,serif" font-size="34" fill="#171717">A good story.</text>
+<path d="M40 100H237M40 120H201" stroke="#cec9bd" stroke-width="6"/>
+<rect x="278" y="20" width="146" height="140" rx="4" fill="#bdc9b4"/>
+<circle cx="372" cy="61" r="23" fill="#f5e8b6"/>
+<path d="M278 139L326 82L367 126L393 97L424 137V160H278Z" fill="#496452"/>
+<rect x="20" y="176" width="404" height="70" rx="4" fill="#252525"/>
+<text x="37" y="224" font-family="Georgia,serif" font-size="54" fill="#e8ad60">“</text>
+<path d="M79 203H388M79 223H337" stroke="#d3cec1" stroke-width="5"/>
+<rect x="20" y="262" width="195" height="83" rx="4" fill="#fffefa"/>
+<rect x="230" y="262" width="194" height="83" rx="4" fill="#fffefa"/>
+<path d="M38 283H146M38 301H178M248 283H359M248 301H390" stroke="#bdb8ac" stroke-width="5"/>
+<path d="M178 324h17m-6-6 6 6-6 6M388 324h17m-6-6 6 6-6 6" fill="none" stroke="#252525" stroke-width="2"/>
+</g>
+<text x="56" y="584" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#706d65">THE LETTERCAMP BLOG</text></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f5f2ea"/>
+<g transform="translate(50 40) scale(.6)" fill="#171717"><path d="M18 10h25v4H18zm-4 4h4v42h-4zm29 0h4v33h-4zM26 18h9v4h-9zm-4 4h4v21h-4zm13 0h4v34h-4zM18 56h17v4H18z"/></g>
+<text x="90" y="66" font-family="Arial,sans-serif" font-weight="600" font-size="24" letter-spacing="-.5" fill="#171717">Lettercamp</text>
+
+<text x="56" y="272" font-family="Georgia,serif" font-size="87" letter-spacing="-4" fill="#171717">A home for</text>
+<text x="56" y="368" font-family="Georgia,serif" font-size="87" letter-spacing="-4" fill="#171717">your ideas.</text>
+<text x="61" y="423" font-family="Arial,sans-serif" font-size="22" fill="#706d65">Introducing Lettercamp</text>
+<g transform="rotate(7 883 330)">
+<path d="M683 282L886 143L1089 282V477H683Z" fill="#ded7c5"/>
+<rect x="734" y="165" width="302" height="259" rx="3" fill="#fffefa"/>
+<path d="M772 225H968M772 248H928M772 292H994M772 315H970M772 338H935" stroke="#d2cdbf" stroke-width="7"/>
+<path d="M683 282L888 411L1089 282V477H683Z" fill="#232323"/>
+<path d="M683 477L886 345L1089 477Z" fill="#353535"/>
+<circle cx="888" cy="395" r="25" fill="#e8ad60"/>
+<path d="M879 395L885 402L899 387" fill="none" stroke="#232323" stroke-width="3"/>
+</g>
+<text x="56" y="584" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#706d65">THE LETTERCAMP BLOG</text></svg>
