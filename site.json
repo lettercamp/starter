@@ -1,0 +1,11 @@
+{
+  "name": "Fieldnotes",
+  "description": "A publication about everyday culture, creative work, and the things worth noticing.",
+  "language": "en",
+  "author": "The Fieldnotes editors",
+  "favicon": "/favicon.svg",
+  "ogImage": "/images/a-little-more-room-to-notice.png",
+  "navigation": [
+    { "label": "Home", "href": "/" }
+  ]
+}
