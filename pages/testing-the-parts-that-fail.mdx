@@ -1,0 +1,43 @@
+---
+title: "Testing the parts that fail when the demo is over"
+description: "Slow networks. Interrupted saves. Two people editing at once. These are the scenarios we now test before calling a release ready."
+category: "Engineering"
+date: "2026-09-08"
+author: "Alex Rivera"
+authorImage: "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/images/authors/alex-rivera.png"
+image: "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/images/posts/testing-the-parts-that-fail/cover.png"
+imageAlt: "A grid of gray circles with one dark circle marked by a cross."
+ogImage: "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/images/posts/testing-the-parts-that-fail/cover.png"
+---
+
+The easiest demonstration of Good Product is also the least revealing: open a project, write a short update, and press Publish on a fast connection.
+
+We need that path to work. We also need to know what happens when the browser goes offline halfway through, a request arrives twice, or someone removes your project access while the editor is open.
+
+Our pre-release testing starts with those transitions.
+
+## Interrupt the boundary
+
+A save crosses several boundaries: editor state, browser storage, the network, and the database. We test interruptions between them instead of treating the whole operation as one event.
+
+If the browser has only saved a local recovery copy, the interface should say that. If the server accepted a write but its response was lost, retrying must not silently create another published update.
+
+Writing the expected behavior first often reveals a product decision we have not made yet.
+
+## Use deliberately awkward fixtures
+
+Our test workspace contains empty projects, long titles, missing profile pictures, large documents, and names that do not fit neatly on one line. It also includes an account with access to only one project.
+
+These are ordinary conditions, not obscure edge cases. A demo workspace filled only with short, polished examples can make a fragile layout look finished.
+
+## Test recovery, not just the error
+
+Showing an error message is only half a test. Can the person retry safely? Is their text still there? Does signing in again return them to the draft they were editing?
+
+For every interrupted action, we try to identify a clear next step. “Something went wrong” is sometimes accurate, but it rarely helps someone finish their work.
+
+## Keep the checks close to a real risk
+
+We do not need a snapshot of every pixel to know whether a draft survives a refresh. We need a test that writes text, interrupts the connection, and confirms the recovery path.
+
+That approach keeps the suite focused on promises the product actually makes. As those promises grow, the tests should grow with them.

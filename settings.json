@@ -1,0 +1,112 @@
+{
+  "name": "Good Company",
+  "description": "Product news, engineering notes, and what we’re learning along the way.",
+  "language": "en",
+  "author": "The Good Company team",
+  "favicon": "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/favicon.svg",
+  "ogImage": "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/images/posts/announcing-good-product-1-0/cover.png",
+  "navbar": {
+    "links": [
+      {
+        "label": "Blog",
+        "href": "/"
+      }
+    ],
+    "primary": {
+      "label": "Meet Good Product",
+      "href": "/announcing-good-product-1-0/"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "From the blog",
+        "items": [
+          {
+            "label": "Company",
+            "href": "/?category=Company"
+          },
+          {
+            "label": "Product",
+            "href": "/?category=Product"
+          },
+          {
+            "label": "Engineering",
+            "href": "/?category=Engineering"
+          }
+        ]
+      },
+      {
+        "header": "Good Product",
+        "items": [
+          {
+            "label": "What’s new in 1.0",
+            "href": "/announcing-good-product-1-0/"
+          },
+          {
+            "label": "Decisions",
+            "href": "/introducing-decisions/"
+          },
+          {
+            "label": "Weekly digest",
+            "href": "/meet-your-friday-digest/"
+          }
+        ]
+      },
+      {
+        "header": "Good Company",
+        "items": [
+          {
+            "label": "Our story",
+            "href": "/introducing-good-company/"
+          },
+          {
+            "label": "What we believe",
+            "href": "/what-we-are-choosing-to-keep-small/"
+          }
+        ]
+      },
+      {
+        "header": "Behind the scenes",
+        "items": [
+          {
+            "label": "How we build",
+            "href": "/why-we-build-in-public/"
+          },
+          {
+            "label": "Engineering notes",
+            "href": "/a-fast-editor-starts-with-less-work/"
+          },
+          {
+            "label": "Lessons from launch",
+            "href": "/six-weeks-in-what-we-changed/"
+          }
+        ]
+      },
+      {
+        "header": "Engineering",
+        "items": [
+          {
+            "label": "Offline drafts",
+            "href": "/offline-drafts-and-coming-back-online/"
+          },
+          {
+            "label": "A faster editor",
+            "href": "/a-fast-editor-starts-with-less-work/"
+          },
+          {
+            "label": "Reliable notifications",
+            "href": "/why-we-rebuilt-our-notification-queue/"
+          }
+        ]
+      }
+    ]
+  },
+  "typography": {
+    "fontFamily": "Inter",
+    "headingSize": 48,
+    "bodySize": 18
+  },
+  "showReadingTime": true,
+  "homeTitle": "Good Company Blog"
+}
