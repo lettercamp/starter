@@ -1,112 +1,151 @@
 {
-  "name": "Good Company",
-  "description": "Product news, engineering notes, and what we’re learning along the way.",
+  "name": "Lorem Ipsum Blog",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae justo vel sapien malesuada aliquet.",
   "language": "en",
-  "author": "The Good Company team",
-  "favicon": "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/favicon.svg",
-  "ogImage": "https://assets.lettercamp.com/system/starter/f3fa42fbfe53b72a/images/posts/announcing-good-product-1-0/cover.png",
-  "navbar": {
+  "logo": "https://lettercamp.com/lettercamp-logo.png?v=7",
+  "favicon": "https://lettercamp.com/favicon-96x96.png?v=7",
+  "timeZone": "UTC",
+  "design": {
+    "backgroundColor": "#ffffff",
+    "imageRadiusPercent": 2,
+    "typography": {
+      "headingFont": {
+        "google": "Inter"
+      },
+      "bodyFont": {
+        "google": "Inter"
+      },
+      "baseSizePx": 16,
+      "bodyLineHeight": 1.8
+    }
+  },
+  "home": {
+    "title": "Lorem Ipsum Blog",
+    "feedLayout": "grid",
+    "contentWidthPx": 1280,
+    "showCategories": true
+  },
+  "post": {
+    "heroLayout": "stacked",
+    "contentWidthEm": 40,
+    "showCover": true,
+    "showTableOfContents": true,
+    "showReadingTime": true
+  },
+  "header": {
+    "position": "scroll",
     "links": [
       {
-        "label": "Blog",
+        "label": "Initium",
         "href": "/"
+      },
+      {
+        "label": "Fabula",
+        "href": "/praesent-commodo-cursus-magna/"
+      },
+      {
+        "label": "Notae",
+        "href": "/curabitur-blandit/"
       }
     ],
-    "primary": {
-      "label": "Meet Good Product",
-      "href": "/announcing-good-product-1-0/"
+    "button": {
+      "label": "Explora",
+      "href": "/lorem-ipsum-dolor-sit-amet/",
+      "color": "#111111"
     }
   },
   "footer": {
-    "links": [
+    "columns": [
       {
-        "header": "From the blog",
+        "header": "Lorem ipsum",
         "items": [
           {
-            "label": "Company",
-            "href": "/?category=Company"
+            "label": "Aurora",
+            "href": "/category/aurora/"
           },
           {
-            "label": "Product",
-            "href": "/?category=Product"
+            "label": "Serenitas",
+            "href": "/category/serenitas/"
           },
           {
-            "label": "Engineering",
-            "href": "/?category=Engineering"
+            "label": "Lumina",
+            "href": "/category/lumina/"
           }
         ]
       },
       {
-        "header": "Good Product",
+        "header": "Dolor sit amet",
         "items": [
           {
-            "label": "What’s new in 1.0",
-            "href": "/announcing-good-product-1-0/"
+            "label": "Lorem ipsum dolor",
+            "href": "/lorem-ipsum-dolor-sit-amet/"
           },
           {
-            "label": "Decisions",
-            "href": "/introducing-decisions/"
+            "label": "Curabitur blandit",
+            "href": "/curabitur-blandit/"
           },
           {
-            "label": "Weekly digest",
-            "href": "/meet-your-friday-digest/"
+            "label": "Maecenas sed diam",
+            "href": "/maecenas-sed-diam-eget-risus/"
           }
         ]
       },
       {
-        "header": "Good Company",
+        "header": "Consectetur",
         "items": [
           {
-            "label": "Our story",
-            "href": "/introducing-good-company/"
+            "label": "Praesent commodo",
+            "href": "/praesent-commodo-cursus-magna/"
           },
           {
-            "label": "What we believe",
-            "href": "/what-we-are-choosing-to-keep-small/"
+            "label": "Nunc finibus",
+            "href": "/nunc-finibus/"
           }
         ]
       },
       {
-        "header": "Behind the scenes",
+        "header": "Adipiscing elit",
         "items": [
           {
-            "label": "How we build",
-            "href": "/why-we-build-in-public/"
+            "label": "Phasellus faucibus",
+            "href": "/phasellus-faucibus-scelerisque-eleifend/"
           },
           {
-            "label": "Engineering notes",
-            "href": "/a-fast-editor-starts-with-less-work/"
+            "label": "Donec ullamcorper",
+            "href": "/donec-ullamcorper-nulla-non-metus/"
           },
           {
-            "label": "Lessons from launch",
-            "href": "/six-weeks-in-what-we-changed/"
-          }
-        ]
-      },
-      {
-        "header": "Engineering",
-        "items": [
-          {
-            "label": "Offline drafts",
-            "href": "/offline-drafts-and-coming-back-online/"
+            "label": "Vestibulum ante ipsum",
+            "href": "/vestibulum-ante-ipsum-primis-in-faucibus/"
           },
           {
-            "label": "A faster editor",
-            "href": "/a-fast-editor-starts-with-less-work/"
+            "label": "Sed ut perspiciatis",
+            "href": "/sed-ut-perspiciatis-unde-omnis-iste-natus/"
           },
           {
-            "label": "Reliable notifications",
-            "href": "/why-we-rebuilt-our-notification-queue/"
+            "label": "Aliquam erat volutpat",
+            "href": "/aliquam-erat-volutpat/"
           }
         ]
       }
+    ],
+    "socials": [
+      {
+        "platform": "x",
+        "href": "https://www.x.com/lettercampsite"
+      },
+      {
+        "platform": "github",
+        "href": "https://github.com/lettercamp"
+      }
     ]
   },
-  "typography": {
-    "fontFamily": "Inter",
-    "headingSize": 48,
-    "bodySize": 18
+  "seo": {
+    "ogImage": "https://lettercamp.com/lettercamp-logo.png?v=7",
+    "ogImageAlt": "Lettercamp globe logo",
+    "keywords": []
   },
-  "showReadingTime": true,
-  "homeTitle": "Good Company Blog"
+  "analytics": {
+    "googleAnalyticsId": ""
+  }
 }
