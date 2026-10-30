@@ -15,7 +15,8 @@
       "bodyFont": {
         "google": "Inter"
       },
-      "baseSizePx": 16,
+      "headingBaseSizePx": 18,
+      "bodyBaseSizePx": 16,
       "bodyLineHeight": 1.8
     }
   },
@@ -30,7 +31,8 @@
     "contentWidthEm": 40,
     "showCover": true,
     "showTableOfContents": true,
-    "showReadingTime": true
+    "showReadingTime": true,
+    "showRelatedPosts": true
   },
   "header": {
     "position": "scroll",
