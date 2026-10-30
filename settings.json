@@ -2,8 +2,8 @@
   "name": "Lorem Ipsum Blog",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae justo vel sapien malesuada aliquet.",
   "language": "en",
-  "logo": "https://lettercamp.com/lettercamp-logo.png?v=7",
-  "favicon": "https://lettercamp.com/favicon-96x96.png?v=7",
+  "logo": "https://assets.lettercamp.com/system/branding/logo-7e6bff827cd2b3b4.webp",
+  "favicon": "https://assets.lettercamp.com/system/branding/icon-b0f9b95b579d3161.webp",
   "timeZone": "UTC",
   "design": {
     "backgroundColor": "#ffffff",
@@ -50,8 +50,7 @@
     ],
     "button": {
       "label": "Explora",
-      "href": "/lorem-ipsum-dolor-sit-amet/",
-      "color": "#111111"
+      "href": "/lorem-ipsum-dolor-sit-amet/"
     }
   },
   "footer": {
